@@ -56,7 +56,6 @@ class Ball():
         """
         Change the speed of the ball trough time
         """
-        print(self.vx)
         f=0.002*abs(tm.time() / self.acc_i)
         if(self.vx<0):
             self.vx = self.vx - f
